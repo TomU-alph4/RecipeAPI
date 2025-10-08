@@ -5,12 +5,12 @@ A FastAPI-based backend that scans grocery receipts, extracts purchased ingredie
 ---
 
 ## 🏗️ Phase 1 – Project Setup
-- [ ] Create public GitHub repo **`smartrecipe-api`**
-- [ ] Initialize `README.md` with project overview & setup instructions
-- [ ] Create virtual environment (`venv` or `poetry`)
-- [ ] Install base dependencies: `fastapi`, `uvicorn`, `pydantic`, `python-dotenv`
-- [ ] Setup `.gitignore` for Python, venv, and local files
-- [ ] Create folder structure:
+- [x] Create public GitHub repo **`recipeAPI`**
+- [x] Initialize `README.md` with project overview & setup instructions
+- [x] Create virtual environment (`venv` or `poetry`)
+- [x] Install base dependencies: `fastapi`, `uvicorn`, `pydantic`, `python-dotenv`
+- [x] Setup `.gitignore` for Python, venv, and local files
+- [x] Create folder structure:
 app/
 ├── api/
 ├── core/
