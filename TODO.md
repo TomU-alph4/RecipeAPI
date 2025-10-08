@@ -21,16 +21,16 @@ app/
 ---
 
 ## ⚙️ Phase 2 – Core App & Config
-- [ ] Create `main.py` with FastAPI instance and root `/health` endpoint
-- [ ] Add configuration using `pydantic.BaseSettings` (load `.env` variables)
-- [ ] Implement basic logging setup in `core/logging.py`
-- [ ] Add automatic CORS middleware setup
-- [ ] Add a basic dependency-injection pattern (`Depends`)
+- [x] Create `main.py` with FastAPI instance and root `/health` endpoint
+- [x] Add configuration using `pydantic.BaseSettings` (load `.env` variables)
+- [x] Implement basic logging setup in `core/logging.py`
+- [x] Add automatic CORS middleware setup
+- [x] Add a basic dependency-injection pattern (`Depends`)
 
 ---
 
 ## 🧠 Phase 3 – Database & Models
-- [ ] Install and run **PostgreSQL** (via Docker)
+- [x] Install and run **PostgreSQL** (via Docker)
 - [ ] Install ORM tools: `sqlmodel`, `psycopg2-binary`
 - [ ] Create `core/db.py` with SQLModel engine and session logic
 - [ ] Define `User`, `Receipt`, and `Ingredient` models

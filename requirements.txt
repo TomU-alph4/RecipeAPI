@@ -1,4 +1,6 @@
 fastAPI
 uvicorn
 pydantic
+pydantic-settings
 python-dotenv
+alembic
